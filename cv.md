@@ -31,3 +31,12 @@ function findDifference(a, b) {
 console.log(findDifference([3, 2, 5], [1, 4, 4]));
 ```
 Also you can find relevant projects [in my Github](https://github.com/NastasiaMitsina).
+
+#### Education and work experience:
+1. November 2020  – Front-end Programming course (LeverX group).
+2. August 2015 – November 2020 – English teacher at school №199 Minsk, Belarus. 
+3. September 2011- May 2015:	Linguistic College, Foreign language (English).
+
+#### Languages:
+1. Russian is native.
+2. English is the second (upper-intermediate).
