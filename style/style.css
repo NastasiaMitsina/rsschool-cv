@@ -3,6 +3,9 @@
     font-size: 18px;
     line-height: 30px;
 }
+h3 {
+    margin: 0;
+}
 .container {
     width: 1200px;
     margin: auto;
@@ -23,7 +26,7 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.025);
     color: #EEEEEE;
 }
-main {
+.container-two {
     display: block;
     padding: 0 20px;
 }
@@ -32,7 +35,6 @@ aside{
     padding-left: 30px;
 }
 .main-photo {
-    margin: 10px auto;
     overflow: hidden;
 }
 .main-photo img {
@@ -42,10 +44,22 @@ section{
     margin-bottom: 20px;
 }
 .section-header{
+    text-align: center;
     padding-top: 20px;
     font-weight: 600;
     color: #393E46;
     font-size: 20px;
+}
+.center {
+    padding-left: 216px;
+}
+hr {
+    border: none;
+    color: #FD7013;
+    background-color: #FD7013;
+    height: 2px;
+    width: 28%;
+    margin-bottom: 18px;
 }
 span {
     color: #FD7013;
@@ -60,7 +74,10 @@ span {
 a {
     text-decoration: none;
     color: #EEEEEE;
+    transition: box-shadow 180ms ease-in;
+    border-radius: 5px;
+    padding: 0 10px;
 }
 a:hover {
-    font-size: 20px;
+    box-shadow: 0 0 0 2px #FD7013;
 }
