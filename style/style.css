@@ -65,11 +65,10 @@ span {
   color: #fd7013;
 }
 .contacts {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
 }
 a {
   text-decoration: none;
@@ -80,4 +79,13 @@ a {
 }
 a:hover {
   box-shadow: 0 0 0 2px #fd7013;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.logo img {
+  width: 100px;
 }
