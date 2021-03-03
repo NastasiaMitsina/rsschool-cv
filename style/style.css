@@ -89,3 +89,6 @@ a:hover {
 .logo img {
   width: 100px;
 }
+li {
+  list-style-type: none;
+}
